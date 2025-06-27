@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#Instituto_Federal {
+    border: 1px solid black;
+    height: 500px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+#Logo_IF {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 132px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    justify-self: center;
+}
+
+#Logo_IF .bloco_da_logo {
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+#Logo_IF #um {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: red;
+    border-radius: 100%;
+
+}
+
+#Logo_IF #dois {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+#Logo_IF #tres {
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+}
+
+#Logo_IF #quatro {
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+
+#Logo_IF #cinco {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+
+#Logo_IF #seis {
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+}
+
+#Logo_IF #sete {
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+}
+
+#Logo_IF #oito {
+    grid-column: 3/4;
+    grid-row: 3/4;
+
+}
+
+#Logo_IF #nove {
+    grid-column: 1/2;
+    grid-row: 4/5;
+
+}
+
+#Logo_IF #dez {
+    grid-column: 2/3;
+    grid-row: 4/5;
+
+}
+
+#nome_do_instituto {
+    text-align: center;
+    font-size: xx-large;
+}
+
+hr {
+    width: 210px;
+    border: 1px solid green;
+}
+
+#unidade_academica {
+    text-align: center;
+    font-size: x-large;
+}
