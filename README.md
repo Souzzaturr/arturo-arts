@@ -1,5 +1,5 @@
 # 🖌Algumas coisas daoras com html, css &amp; javascript...
-  Aqui vocês irão encontrar coisas daoras com html e css 😊
+  Aqui vocês irão encontrar coisas daoras com html, css e javascript 😊
   Espero que gostem!!!
 
   
