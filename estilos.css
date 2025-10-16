@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#cabecalho {
+    padding: 2em 0;
+}
+
+#titulo-pagina {
+    margin: 0 1em;
+    font-size: 2.5em;
+}
+
+main {
+    margin: 0 1.5em;
+}
+
+#conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+}
+
+#apresentacao {
+    line-height: 2;
+}
+
+#bloco-imagem {
+    display: flex;
+    flex-direction: column;
+    width: 8em;
+    align-items: center;
+    justify-content: space-around;
+    height: 230px;
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.096);
+}
