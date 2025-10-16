@@ -8,8 +8,6 @@ fetch("bandeiras/countries.json")
         
         let conteudo_principal = document.querySelector("#conteudo");
 
-        console.log(sigla_paises[2].toLowerCase() );
-
         for (let i = 0; i < qtd_paises; i++) {
             conteudo_principal.innerHTML += 
             '<div id = "bloco-imagem">' +
